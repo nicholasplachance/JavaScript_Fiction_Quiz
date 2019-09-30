@@ -1,0 +1,176 @@
+* {
+  margin: auto;
+  padding: auto;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  background-image: radial-gradient(#47626B, #52527A);
+  background-repeat: repeat-y;
+  background-size: cover;
+  overflow-x: hidden;
+  font-size: 20px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+a {
+  font-size: 12px;
+  text-align: center;
+  color: #C2D1D6;
+}
+
+.table {
+    text-align: center;
+    font-size: 26px;
+    background-image: radial-gradient(#000066, #000033);
+    color: #E0E8EB;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    padding: 2%;
+}
+
+th {
+    font-size: 32px;
+}
+
+.content {
+  max-width: 100%;
+  background-image: radial-gradient(#000066, #000033);
+  margin-top: 5%;
+  padding: 1%;
+  width: 50%;
+  height: 525px;
+  border: 12px solid #007A99;
+  border-radius: 90px 20px;
+  box-shadow: 16px 14px #00141A;
+}
+
+
+.heading {
+  width: 80%;
+  margin: 5% 10%;
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.quiz-container {
+  width: 40%;
+  text-align: left;
+  position: relative;
+  top: 0;
+  margin-top: 40px;
+  font-size: auto;
+  height: 300px;
+  width: 300px;
+}
+.quiz-container > .question {
+  text-align: center;
+}
+
+
+.question {
+  text-align: center;
+  color: #E0E8EB;
+  margin: 0 1%;
+  font-weight: 600;
+}
+
+
+.answers {
+  margin: 0 2%;
+  margin: 5px 10px;
+  padding: 4px;
+  color: #C2D1D6;
+}
+
+.answer > label {
+  display: block;
+}
+
+#submit {
+  font-size: 75%;
+  font-weight: 700;
+  background: #00001A;
+  color: #666666;
+  margin: 1%;
+  padding: 1%;
+  width: 150px;
+  height: 50px;
+}
+
+#submit:hover {
+  background: darkgray;
+}
+
+.slide{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+
+label {
+    display: block;
+}
+
+.button {
+  color: #666666;
+  background: #CCCCCC;
+  font-size: auto;
+  margin: 1%;
+  width: 125px;
+  height: 32px;
+}
+.button:hover {
+  background: #A6A6A6;
+}
+
+.quiz-finished {
+  margin: 0 30%;
+  text-align: center;
+  width: 40%;
+}
+
+#begin {
+    background: black;
+    color: white;
+    padding: 2%;
+    width: 20%;
+    margin: 0 40%;
+}
+
+#begin:active {
+    background: black;
+    color: black;
+    padding: 2%;
+    width: 20%;
+    margin: 0 40%;
+}
+#begin:visited {
+    background: black;
+    color: black;
+    padding: 2%;
+    width: 20%;
+    margin: 0 40%;
+}
+#begin:hover {
+    background: darkgray;
+    color: black;
+    padding: 2%;
+    width: 20%;
+    margin: 0 40%;
+}
